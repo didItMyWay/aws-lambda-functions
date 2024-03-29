@@ -11,7 +11,7 @@ provider:
   runtime: python3.9
   region: eu-central-1
   iamManagedPolicies:
-    - "arn:aws:iam::XXX:policy/UserServiceReadSecrets"
+    - "arn:aws:iam::XXX:policy/UserApplicationReadSecrets"
 
 functions:
   registration:
